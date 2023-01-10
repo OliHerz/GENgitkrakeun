@@ -36,7 +36,7 @@
  <div>
 	 <p> marque :  <?php the_field("marque"); ?> </p>
 	 <p> prix : <?php  the_field("prix"); ?> </p>
-	 <p> année de sortie : <?php  the_field("annee_mobel"); ?> </p>
+	 <p> année de sortie : <?php  the_field("annee_model"); ?> </p>
  </div>
 
 
