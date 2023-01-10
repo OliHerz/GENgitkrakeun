@@ -33,6 +33,13 @@
 
 	<?php gitkrakeun_post_thumbnail(); ?>
 
+ <div>
+	 <p> marque :  <?php the_field("marque"); ?> </p>
+	 <p> prix : <?php  the_field("prix"); ?> </p>
+	 <p> année de sortie : <?php  the_field("annee_mobel"); ?> </p>
+ </div>
+
+
 	<div class="entry-content">
 		<?php
 		the_content(
